@@ -40,6 +40,7 @@ export default function App() {
         
         <Header
           handleSearch={handleSearch}
+          searchTerm={searchTerm}
           setSearchTerm={setSearchTerm}
         />
 
